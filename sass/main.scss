@@ -5,4 +5,8 @@
 
 @import "compass/reset";
 
+*{
+  box-sizing: border-box;
+}
+
 @import "notif.scss";

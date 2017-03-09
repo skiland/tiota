@@ -67,6 +67,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 8, ../sass/main.scss */
+* {
+  box-sizing: border-box;
+}
+
 /* line 1, ../sass/_notif.scss */
 * {
   font-family: "Open Sans", sans-serif;
@@ -74,8 +79,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 5, ../sass/_notif.scss */
 header {
+  display: -webkit-flex;
+  -webkit-align-items: center;
   display: flex;
   align-items: center;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
