@@ -67,4 +67,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 1, ../sass/_notif.scss */
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 5, ../sass/_notif.scss */
+header {
+  display: flex;
+  align-items: center;
+}
+
 /*# sourceMappingURL=main.css.map */
