@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,52 +24,47 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
-}
-
-/* line 8, ../sass/main.scss */
-* {
-  box-sizing: border-box;
 }
 
 /* line 1, ../sass/_notif.scss */
@@ -197,6 +192,73 @@ ul li .hidden .container-info .price {
   background: lightgray;
   color: white;
   padding: 15px 0px;
+}
+
+/* line 1, ../sass/_home.scss */
+.content {
+  background-color: #F2F2F2;
+  height: 100%;
+}
+/* line 5, ../sass/_home.scss */
+.content .infoUser_wrapper {
+  width: 100%;
+}
+/* line 9, ../sass/_home.scss */
+.content .infoUser_wrapper {
+  width: 100%;
+}
+/* line 11, ../sass/_home.scss */
+.content .infoUser_wrapper .image_wrapper {
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+}
+/* line 18, ../sass/_home.scss */
+.content .infoUser_wrapper .image {
+  border-radius: 50%;
+  height: 100%;
+  background: url(../assets/hugh.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* line 26, ../sass/_home.scss */
+.content .infoUser_wrapper .name_user {
+  margin: 0 auto;
+  display: block;
+  width: 10%;
+  text-align: center;
+}
+/* line 33, ../sass/_home.scss */
+.content .infoUser_wrapper .action_button_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 39, ../sass/_home.scss */
+.content .infoUser_wrapper .action_button {
+  padding: 25px;
+  border: none;
+  margin: 0 auto;
+  background: #EF425F;
+  border-radius: 60px;
+}
+/* line 49, ../sass/_home.scss */
+.content .list .time_button {
+  font-size: 30px;
+  color: #595968;
+  letter-spacing: 0;
+  line-height: 24px;
+  border: 2px solid #FF8162;
+  font-size: 30px;
+  color: #949494;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+/* line 60, ../sass/_home.scss */
+.content .list .driver_wrapper {
+  background-color: white;
+  margin: 5px 0;
 }
 
 /*# sourceMappingURL=main.css.map */
