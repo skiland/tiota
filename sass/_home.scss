@@ -1,0 +1,65 @@
+.content {
+  background-color: #F2F2F2;
+  height: 100%;
+
+  .infoUser_wrapper {
+    width: 100%;
+  }
+
+  .infoUser_wrapper {
+    width: 100%;
+    .image_wrapper {
+      margin: 0 auto;
+      height: 150px;
+      width: 150px;
+      padding: 10px;
+    }
+
+    .image {
+      border-radius: 50%;
+      height: 100%;
+      background: url(../assets/hugh.jpg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .name_user {
+      margin: 0 auto;
+      display: block;
+      width: 10%;
+      text-align: center;
+    }
+
+    .action_button_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .action_button {
+      padding: 25px;
+      border: none;
+      margin: 0 auto;
+      background: #EF425F;
+      border-radius: 60px;
+    }
+  }
+
+  .list {
+    .time_button {
+      font-size: 30px;
+      color: #595968;
+      letter-spacing: 0;
+      line-height: 24px;
+      border: 2px solid #FF8162;
+      font-size: 30px;
+      color: #949494;
+      letter-spacing: 0;
+      line-height: 24px;
+    }
+    .driver_wrapper {
+      background-color: white;
+      margin: 5px 0;
+    }
+  }
+}
